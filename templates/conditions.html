@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditions</title>
+</head>
+<body>
+    <center>
+    <!------>
+        <h1>Conditional Statements</h1>
+        <h1>if condition</h1>
+        <h1>{% if a > 100 %}</h1>
+        <h1>Inside if Block</h1>
+        <h1>{{a}}</h1>
+        {% endif %}
+    <!------>
+    <!------>
+        <h1>if-else Condition</h1>
+        <h1>{% if a > b %}</h1>
+        <h1>Inside if condition</h1>
+        <h1>a is Max {{a}}</h1>
+        <h1>{% else %}</h1>
+        <h1>Inside else condition</h1>
+        <h1>b is Max {{b}}</h1>
+        <h1>{% endif %}</h1>
+    <!------>
+        <h1>Nested if Condition</h1>
+        <h1>{% if a > b  %}</h1>
+            <h1>Inside the outer if</h1>
+            <h1>{% if a > c %}</h1>
+            <h1>Inside inner if</h1>
+            <h1>a is Max {{a}}</h1>
+            <h1>{% else %}</h1>
+            <h1>inside  inner else</h1>
+            <h1>c is Max {{c}}</h1>
+            <h1>{% endif %}</h1>
+        <h1>{% else  %}</h1>
+        <h1>inside outer else</h1>
+            <h1>{% if b > c %}</h1>
+            <h1>inside inner else if</h1>
+            <h1>b is Max {{b}}</h1>
+            <h1>{% else %}</h1>
+            <h1>Inside inner else else</h1>
+            <h1>c is Max {{c}}</h1>
+            <h1>{% endif %}</h1>
+        <h1>{% endif %}</h1>
+    </center>
+</body>
+</html>
